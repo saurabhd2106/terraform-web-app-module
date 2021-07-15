@@ -1,4 +1,4 @@
-resource "azurerm_app_service" "example" {
+resource "azurerm_app_service" "app-service" {
   name                = var.appServiceName
   location            = azurerm_resource_group.resource-group.location
   resource_group_name = azurerm_resource_group.resource-group.name
