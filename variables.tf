@@ -21,3 +21,7 @@ variable "skuSize" {
 variable "skuTeir" {
   type = string
 }
+
+variable "appServiceName" {
+  type = string
+}
